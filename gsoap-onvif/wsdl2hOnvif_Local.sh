@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/local/gSOAP/bin/wsdl2h -c++ -s -t typemap.dat -o ./onvif.h onvif/devicemgmt.wsdl onvif/event.wsdl onvif/accesscontrol.wsdl onvif/accessrules.wsdl onvif/advancedsecurity.wsdl onvif/analytics.wsdl onvif/credential.wsdl onvif/deviceio.wsdl onvif/display.wsdl onvif/doorcontrol.wsdl onvif/imaging.wsdl onvif/media.wsdl onvif/media2.wsdl onvif/provisioning.wsdl onvif/ptz.wsdl onvif/receiver.wsdl onvif/recording.wsdl onvif/search.wsdl onvif/replay.wsdl onvif/schedule.wsdl onvif/thermal.wsdl onvif/analyticsdevice.wsdl onvif/remotediscovery.wsdl 
